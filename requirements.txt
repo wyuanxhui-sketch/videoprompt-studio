@@ -1,0 +1,5 @@
+streamlit==1.65.0
+pandas==3.0.6
+openpyxl==3.1.5
+# Community Cloud compatibility: restrict Streamlit's existing transitive dependency.
+protobuf>=5.26.1,<6
